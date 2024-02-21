@@ -1,0 +1,284 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(52, 52, 88);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 120px;
+  
+}
+.nav1{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    
+}
+
+
+.nav2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: rgb(52, 52, 88);
+}
+
+
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
+.logoimg{
+    width: 2rem;
+    height: 3rem;
+}
+.logo h1{
+    margin: 0.5rem;
+}
+.menu{
+    margin-left: 2rem;
+}
+.menu a{
+    text-decoration: none;
+    margin-left: 10px ;
+    color: rgb(6, 6, 48);
+    font-weight: 600;
+}
+.nav2 img{
+    width: 40px;
+    height: 40px;
+}
+.cart{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid;
+    border-color: gray;
+    border-radius: 30px;
+    
+}
+.cart img{
+    margin: 0.2rem;
+}
+.cart p{
+    margin-right:  1rem;
+}
+
+.banner img{
+    
+    width: 100%;
+    height: auto;
+}
+
+.container{
+    margin: 3rem 13rem;
+    
+}
+
+.newsletter{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 18rem;
+
+    margin: 0 auto;
+    align-items: center;
+    background-image: url("https://res.cloudinary.com/dtrvdcebd/image/upload/v1708266045/Clothy/l04wim0gq4l6c3rk5p32.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    
+
+}
+.newsletter0{
+    width: 25rem;
+}
+.newsletter h1{
+    font-size: 40px;
+    color: white;
+    padding: 3rem;
+}
+.newsletter1{
+    margin: 3rem;
+}
+.newsletter1 input{
+    border-radius: 10px;
+    border: 0;
+    height: 4rem;
+}
+.enteremail{
+    width: 17rem;
+    
+}
+.btmsub{
+    width: 12rem;
+    
+    background-image: url("https://res.cloudinary.com/dtrvdcebd/image/upload/v1708266044/Clothy/giywnwhsomoybyi9vgxj.png");
+    background-position: center;
+    color: white;
+
+}
+
+footer {
+    display: flex;
+    margin: 4rem;
+}
+footer div{
+    
+    padding: 0 3rem;
+
+}
+.footlogo{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    
+}
+.footer1{
+    width: 40%;
+    justify-content: center;
+    border-right: 1px solid grey;
+    text-align: center;
+}
+.rsx{
+    width: 50px;
+    height: 50px;
+}
+
+.footer0{
+    border-right: 1px solid grey;
+    text-align: end;
+    width: 30%;
+
+}
+.footer2{
+    width: 30%;
+}
+
+
+
+
+/*singleshop js */
+
+.shopsingle{
+    margin: 30rem ;
+    display: inline;
+}
+.single{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+.rating{
+    width: 5rem;
+}
+
+.productquantity{
+    display: flex;
+    gap: 0.8rem;
+}
+.numquant {
+    border-color: rgb(52, 52, 88);
+    width: 4rem;
+    text-align: center;
+    border-radius: 10px;
+
+}
+.btnadd{
+    background-image: url("https://res.cloudinary.com/dtrvdcebd/image/upload/v1708266044/Clothy/giywnwhsomoybyi9vgxj.png");
+    background-position: center;
+    color: white;
+    width: 10rem;
+    border: 0;
+    border-radius: 10px;
+    
+}
+.prodinfo{
+    
+    align-items: center;
+    
+    
+}
+
+
+.in1{
+    width: 15rem;
+    height: 4rem;
+    background-image: url("https://res.cloudinary.com/dtrvdcebd/image/upload/v1708266044/Clothy/giywnwhsomoybyi9vgxj.png");
+    background-position: center;
+    color: white;
+    
+    border: 0;
+    border-radius: 10px;
+}
+.in2{
+    width: 15rem;
+    height: 4rem;
+    border-radius: 10px;
+    border: 0;
+}
+.desc{
+
+    padding: 4rem;
+    text-align: center;
+}
+.shopsingleimg{
+    margin: 2rem;
+    width: 16rem;
+    
+
+}
+
+
+
+/*shopt js */
+
+.shopt{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin:  3rem 0;
+    
+    
+}
+.prodiv{
+    background-color: rgb(240, 244, 247);
+    border-radius: 10px;
+    padding: 1rem;
+    
+    
+}
+.navdiv{
+    display: flex;
+    justify-content: space-between;
+}
+.procat{
+    background-image: url("https://res.cloudinary.com/dtrvdcebd/image/upload/v1708266044/Clothy/giywnwhsomoybyi9vgxj.png");
+    background-position: center;
+    color: white;
+    padding: 0.3rem;
+    border-radius: 10px;
+    font-size: 0.8rem;
+}
+.navcart{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.proimg{
+    width: 13rem;
+    height: 15rem;
+}
+
+.pricediv{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid grey;
+    align-items: center;
+}
+.prorat{
+    width: 4rem;
+    height: 1.5rem;
+
+}
